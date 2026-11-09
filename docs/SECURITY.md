@@ -1,0 +1,2 @@
+# Security floor, read before Week 13 implementation
+No API keys or secrets. No server storage or personal fields: auth and Supabase RLS not applicable. Numeric/enumerated forms validated by engine. No raw user text enters AI; local structured explanation only. Fictional sample labeled. Analytics allowlist stores metadata only. Session summaries may include scenario answers: use approximate fictional inputs for demos. No accounts connected and no actions executed.
