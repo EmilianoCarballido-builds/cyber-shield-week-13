@@ -1,4 +1,4 @@
-export const VERSION = 'week13-baseline-1';
+export const VERSION = 'week13-fixed-2';
 const EVENTS = new Set(['diagnosis_started','validation_failed','plan_viewed','plan_exported','feedback_submitted','session_reset']);
 export function createSession() {
   const started = performance.now();
