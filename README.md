@@ -1,14 +1,25 @@
 # Cyber Shield · Week 13
-Local baseline prepared from Week 8. No Week 13 public URL, commits, deployments or real user sessions yet.
 
-Start with [docs/PACKET.md](docs/PACKET.md). The packet preceded Week 13 code changes locally; this is not yet established by Git history.
+**Live demo:** https://cyber-shield-week-13.vercel.app/
+**Repository:** https://github.com/EmilianoCarballido-builds/cyber-shield-week-13
+
+Spanish educational continuity planner for Mexican small-business owners without cybersecurity staff. Reuses Week 8, gives three rule-based priorities, and saves a readable text plan. No active protection, account access or paid service is provided. Optional WebLLM is labeled and unnecessary for the core test.
+
+## Week 13 changes
+- Private versioned in-memory event log, JSON export/reset and optional clarity feedback.
+- Duplicate-feedback bug fixed; one response per generated plan.
+- Fresh synthetic persona test prompted prominent Guardar mi plan (.txt).
+- Five meaningful commits, two production releases; 19 automated checks pass.
 
 ## Run
-Node 22 or newer, then `npm install`, `npm run dev`. Checks: `npm test` and `npm run build`. Lockfile provided for pnpm users (`pnpm install --frozen-lockfile`).
+Node 22+; `npm install`, `npm run dev`. `npm test` and `npm run build`. pnpm users can use the provided lockfile with `pnpm install --frozen-lockfile`.
 
-The Spanish demo produces three rule-based priorities and a downloadable plan. Optional local AI requires a separate model download; it is unnecessary for research sessions. New Week 13 events and feedback stay in memory and can be exported from Bitácora. Reset and reload discard them. Exported plan summaries contain the submitted business scenario; use hypothetical values and keep those files private.
+## Evidence
+Start with [Packet](docs/PACKET.md), [build prompt](docs/BUILD_PROMPT.md), [security floor](docs/SECURITY.md), [persona](docs/PERSONA.md), [test report](docs/TEST_REPORT.md), [actual development conversation](docs/BUILDCHAT.md) and [submission checklist](docs/SUBMISSION.md). Decisions and tomorrow's first move are in DECISIONS.md.
 
 ## Research handoff
-Use docs/USER_SESSIONS.md for five eligible users (at least three strangers). Export each session's event log before reset. Record real quotes separately. Rank observed pains before selecting a fix. Baseline deployment and post-fix redeployment remain pending. Do not publish participant identities or raw messages.
+Five actual target users (at least three strangers) remain pending. Use docs/USER_SESSIONS.md, PAIN_RANKING.md, FIX_EVIDENCE.md and RETURN_EVIDENCE.md. Export event logs before reset/reload; no answers or identities are included in those logs. Plan-summary JSON does contain submitted scenario values, so use approximate fictional inputs and keep research files private.
 
-No active protection, account access or paid service is provided.
+A real owned domain has not been found/verified; the course requires one as the URL of record. No measured 10:1 result, real-user pain fix, return proof or provider-signal integration is claimed. The user will create the 3:30 video.
+
+Packet was prepared locally before local Week 13 changes, then published before source import. Git history establishes publication order, not an invented earlier code chronology.

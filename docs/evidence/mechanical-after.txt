@@ -1,0 +1,27 @@
+✔ validates people boundaries and package threshold (1.069459ms)
+✔ rejects missing, extra, malformed and adversarial inputs (0.143375ms)
+✔ money is scenario arithmetic, handles zero income (0.084167ms)
+✔ unknown does not become safe; incident overrides all protections (0.081167ms)
+✔ all 54 control combinations yield exactly three unique priorities (0.279541ms)
+✔ approval is explicit and export stays labeled (0.095792ms)
+✔ no-provider persona gets an actionable first step, incident still wins (0.048167ms)
+✔ event export contains only allowed metadata and reset isolates sessions (3.412292ms)
+✔ cancel/reopen always requires fresh consent (29.233209ms)
+✔ unfinished form values survive navigation and determine correct price (28.683375ms)
+✔ empty numeric field remains invalid after navigation (10.197166ms)
+✔ incident priority and zero-income math render without Infinity (14.222417ms)
+✔ changing scenario updates displayed amount; audit records it (18.929958ms)
+✔ reset clears prior assessment, draft and audit history (18.516542ms)
+✔ persona fixes show cost exclusions and money equivalence, not recovery time (13.049417ms)
+✔ local AI requires consent and unsupported GPU preserves simulated output (14.754917ms)
+✔ feedback and event export controls are reachable after a real plan (11.380083ms)
+✔ feedback cannot be counted twice for a single plan (10.342125ms)
+✔ readable save button is visible with the result heading (8.846666ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 19
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5029.211292

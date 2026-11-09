@@ -129,3 +129,6 @@ No live site exists for this plan. Local/in-person trials can prepare the test, 
 ## Next implementation instruction
 
 After this packet is reviewed, verify and reuse the Week 8 source, add only the specified local feedback/events mechanism, and prepare one usable baseline. Do not preselect the user pain or claim success before the five observations. Stop at the research handoff until actual sessions supply the finding to fix. No real participants have been contacted or tested in this planning task.
+
+## Release addendum (after the original plan)
+The local packet was prepared before local Week 13 event code. Published sequence: f61c6f5 packet, b246b76 build prompt/security, bfc3fd8 reused baseline, a49e683 event logging, e78e14b tested fixes. Two production releases are READY; current public demo is https://cyber-shield-week-13.vercel.app/ . Mechanical duplicate-feedback bug fixed, synthetic save-plan finding addressed, 19 tests pass. No real domain, five real-user observations or return proof is claimed. The draft Week 13 Team Blueprint's proposed provider-signal sandbox validation remains pending; this slice retains clearly user-declared/unknown coverage. Video is the user's responsibility. Full evidence and limits: TEST_REPORT.md and SUBMISSION.md.

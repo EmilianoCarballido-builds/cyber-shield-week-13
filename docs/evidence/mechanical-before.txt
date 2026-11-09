@@ -1,0 +1,41 @@
+✔ cancel/reopen always requires fresh consent (49.48825ms)
+✔ unfinished form values survive navigation and determine correct price (28.272167ms)
+✔ empty numeric field remains invalid after navigation (9.652708ms)
+✔ incident priority and zero-income math render without Infinity (14.222ms)
+✔ changing scenario updates displayed amount; audit records it (23.639208ms)
+✔ reset clears prior assessment, draft and audit history (19.088417ms)
+✔ persona fixes show cost exclusions and money equivalence, not recovery time (14.252542ms)
+✔ local AI requires consent and unsupported GPU preserves simulated output (13.727833ms)
+✔ feedback and event export controls are reachable after a real plan (11.211292ms)
+✖ feedback cannot be counted twice for a single plan (11.153584ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 9
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5069.899542
+
+✖ failing tests:
+
+test at tests/ui.test.js:29:1
+✖ feedback cannot be counted twice for a single plan (11.153584ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  false !== true
+  
+      at TestContext.<anonymous> (file:///Users/emilianocarballido/Documents/Codex/2026-11-08/referenced-chatgpt-conversation-this-is-an-3/outputs/cyber-shield-week-13/tests/ui.test.js:29:112)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
